@@ -1,0 +1,37 @@
+       Start
+         |
+ Check Root Privileges
+         |
+    Is Root User or sudo user?
+      /     \
+    Yes      No
+    |        |
+ Display   Display
+ Main Menu  Error
+    |        |
+  User      Exit
+  Makes
+  Selection
+    |
++--------+--------+--------+--------+--------+
+|        |        |        |        |        |
+v        v        v        v        v        v
+Add     Delete   List     Change    Exit
+User    User     Users    Password
+ |        |        |        |        |
+Prompt   Prompt   Display  Prompt   Exit
+for      for      List of  for
+User-    User-    Users    User-
+name,    name              name,
+Full                       New
+Name,                      Password
+Password                   Confirm
+Confirm                    Password
+Password
+ |        |        |        |        |
+Add      Delete  Return   Change   Exit
+User     User    to       Password
+Return   Return  Main     Return
+to Main  to Main Menu     to Main
+Menu     Menu              Menu
+
